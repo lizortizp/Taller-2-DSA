@@ -26,6 +26,7 @@ def load_data():
     df = df.set_index("time")
     return df
  # Cambio hecho en la rama lizeth-viz   
+# Cambio sincronizado con GitHub
 
 # Cargar datos
 data = load_data()
