@@ -25,7 +25,7 @@ def load_data():
     df["time"] = pd.to_datetime(df["time"])
     df = df.set_index("time")
     return df
-    
+ # Cambio hecho en la rama lizeth-viz   
 
 # Cargar datos
 data = load_data()
